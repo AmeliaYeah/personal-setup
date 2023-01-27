@@ -2,6 +2,7 @@
 * Adds (keybind modded) I3 WM
 	* Closing a window is `$mod+q` versus the old `$mod+Shift+Q`
 	* Resizing windows are now `$mod+Ctrl+ARROW_KEY` verus the old resize mode thin
+	* Screen can be locked with `$mod+x`
 * Uses black "cuts" polybar theme (to change properly, `setup.sh` and the i3 config must be changed accordingly.)
 * Uses type 1 (style 8) rofi theme (this can be changed in the i3 config, though)
 	* Keybind `$mod+Space`
