@@ -17,11 +17,11 @@ Currently, this only works on Debian/Ubuntu based distros. This was tested on pu
 
 ### Installation
 ```bash
-git clone https://github.com/AmeliaYeah/i3-zsh-setup
-cd i3-zsh-setup
+git clone https://github.com/AmeliaYeah/personal-setup
+cd personal-setup
 chmod +x setup.sh
 ./setup.sh
 cd ..
-rm -rf i3-zsh-setup
+rm -rf personal-setup
 ```
 **Script should be fully automated once you get passed the APT package installations (macchanger might spawn a yes/no dialog)**
