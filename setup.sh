@@ -93,6 +93,7 @@ cd ${olddir}
 echo "Adding dotfiles.."
 cp -r ./dotfiles/. ~
 add_special_cnf i3 config
+cp -r ./special_df/networkmanager-dmenu ~/.config
 
 echo "Adding themes..."
 add_themes adi1090x/polybar-themes.git 1 setup.sh
