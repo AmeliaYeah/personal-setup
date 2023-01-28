@@ -3,7 +3,10 @@
 	* Closing a window is `$mod+q` versus the old `$mod+Shift+Q`
 	* Resizing windows are now `$mod+Ctrl+ARROW_KEY` verus the old resize mode thin
 	* Screen can be locked with `$mod+x`
+	* FN key brightness keys automatically set the brightness (couldn't get polybar brightness working)
+		* Change these in the i3 config, as your computer key input may be different to mine
 * Uses black "cuts" polybar theme (to change properly, `setup.sh` and the i3 config must be changed accordingly.)
+	* **If the battery icon does not show on the polybar, for whatever theme you choose,** please set it by going to `~/.config/polybar/[THEME]/modules.ini` and modifying the battery module to whichever model you have.
 * Uses type 1 (style 8) rofi theme (this can be changed in the i3 config, though)
 	* Keybind `$mod+Space`
 * NetworkManager_dmenu replaces regular dmenu (in favor of rofi) at `$mod+d`
@@ -26,3 +29,7 @@ cd ..
 rm -rf personal-setup
 ```
 **Script should be fully automated once you get passed the APT package installations (macchanger might spawn a yes/no dialog)**
+
+### Misc.
+1. If you're going to use `i3`, use XFCE as the desktop environment (preferrably in Debian, as Ubuntu tends to get bloated)
+	* Use Noto Mono Regular 10pt for the terminal, with an underscore in xfce-terminal (looks cool)

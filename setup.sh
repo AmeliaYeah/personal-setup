@@ -37,7 +37,7 @@ fi;
 
 echo "Installing base packages..."
 sudo apt update
-sudo apt install -y bison libnm0 libnm-dev libnotify-bin flex xcb libxcb-icccm4-dev libxcb-ewmh-dev libxcb-cursor-dev libpango1.0-dev libstartup-notification0-dev libgdk-pixbuf2.0-dev check feh autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util0-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev
+sudo apt install -y brightnessctl bison libnm0 libnm-dev libnotify-bin flex xcb libxcb-icccm4-dev libxcb-ewmh-dev libxcb-cursor-dev libpango1.0-dev libstartup-notification0-dev libgdk-pixbuf2.0-dev check feh autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util0-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev
 sudo apt install -y imagemagick mpd gir1.2-nm-1.0 network-manager x11-xserver-utils vim polybar build-essential i3 macchanger bat curl git zsh zsh-syntax-highlighting zsh-autosuggestions python3-pip
 sudo pip3 install pywal pygobject
 
